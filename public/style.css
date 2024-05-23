@@ -1,0 +1,80 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+ 
+  }
+  .centered {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #000;
+}
+
+  .btn{
+    color: rgba(0, 0, 0, 0.1);
+
+  }
+  .container {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  button {
+    margin-top: 10px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    color: #343a40;
+  }
+  
+  .card-text {
+    color: #6c757d;
+  }
+  
+
+  .navbar {
+    background-color: #007bff;
+  }
+  
+  .navbar-brand,
+  .navbar-text {
+    color: #ffffff;
+  }
+
+  
+  .exampleBtn {
+	color: 'white';
+	cursor: 'pointer';
+	overflow: 'hidden';
+	display: 'block';
+	position: 'relative';
+}
+
+.main-text {
+	display: block;
+	transition: transform 500ms;
+}
+
+.hover-text {
+	transition: transform 250ms;
+	transform: translateY(0%);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
